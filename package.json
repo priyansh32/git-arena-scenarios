@@ -1,0 +1,16 @@
+{
+  "name": "git-arena-scenarios",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate-scenarios.ts",
+    "seed": "tsx scripts/seed-scenarios.ts",
+    "generate-sql": "tsx scripts/generate-scenarios-upsert-sql.ts"
+  },
+  "devDependencies": {
+    "pg": "^8.13.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.7.3",
+    "@types/pg": "^8.11.11"
+  }
+}
